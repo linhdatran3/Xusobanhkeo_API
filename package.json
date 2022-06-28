@@ -1,0 +1,25 @@
+{
+  "name": "autoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/woocommerce__woocommerce-rest-api": "^1.0.2",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "express": "^4.18.1",
+    "npm-woocommerce-api": "^1.0.7",
+    "querystring": "^0.2.1",
+    "woocommerce": "^2.4.0",
+    "woocommerce-api": "^1.5.0"
+  },
+  "devDependencies": {
+    "@woocommerce/api": "^0.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
